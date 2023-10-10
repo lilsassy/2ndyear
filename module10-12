@@ -1,0 +1,20 @@
+class A{
+    private int power = 10;
+    
+    public A(){
+
+        disp();
+    }
+
+    public void disp(){
+        System.out.println(this.power);
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        System.out.println("hello");
+        A x = new A();
+       
+        
+    }
+}
